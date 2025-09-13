@@ -9,17 +9,17 @@ Curriculum available at: [FreeCodeCamp Certified Full Stack Developer Curriculum
 The repository is organized by course/module:
 
 ### CSS/
-- **2_Basic_CSS/** - Basic CSS concepts and styling
-- **4_Absolute_And_Relative_Units/** - Working with different unit types
-- **5_Pseudo_Classes_and_Elements/** - CSS pseudo-classes and pseudo-elements
+- **2_BasicCSS/** - Basic CSS concepts and styling
+- **4_AbsoluteAndRelativeUnits/** - Working with different unit types
+- **5_PseudoClassesAndElements/** - CSS pseudo-classes and pseudo-elements
 - **6_Colors/** - Color theory and CSS color properties
-- **7_Styling_Forms/** - Form styling techniques
-- **8_The_Box_Model/** - CSS box model concepts
-- **9_Flex_Box/** - CSS Flexbox layout
+- **7_StylingForms/** - Form styling techniques
+- **8_TheBoxModel/** - CSS box model concepts
+- **9_FlexBox/** - CSS Flexbox layout
 - **10_Typography/** - Typography and text styling
 - **11_Accessibility/** - Accessible web design principles
 - **12_Positioning/** - CSS positioning techniques
-- **13_Attribute_Selectors/** - Advanced CSS selectors
+- **13_AttributeSelectors/** - Advanced CSS selectors
 
 ### HTMLBasics/
 - **Accessibility/** - HTML accessibility best practices
