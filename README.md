@@ -1,6 +1,8 @@
-# FreeCodeCamp Full Stack Developer Curriculum
+# FreeCodeCamp Certified Full Stack Developer Curriculum
 
-This repository contains my projects and exercises as I work through the FreeCodeCamp Full Stack Developer Certification curriculum.
+This repository contains my projects and exercises as I work through the FreeCodeCamp Certified Full Stack Developer Curriculum.
+
+Curriculum available at: [FreeCodeCamp Certified Full Stack Developer Curriculum](https://www.freecodecamp.org/learn/full-stack-development) - (no affiliation, just appreciation)
 
 ## Repository Structure
 
@@ -27,6 +29,7 @@ The repository is organized by course/module:
 - **EventHub/** - Event listing page
 - **HotelFeedbackForm/** - HTML forms
 - **RecipeWebsite/** - Recipe display page
+**BuildHeartIcon/** - Basics of SVGs
 - **SurveyForm/** - Survey form implementation
 - **TravelAgency/** - Travel agency website
 - **VideoCompilationPage/** - Multimedia content page
