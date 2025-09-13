@@ -20,6 +20,7 @@ The repository is organized by course/module:
 - **11_Accessibility/** - Accessible web design principles
 - **12_Positioning/** - CSS positioning techniques
 - **13_AttributeSelectors/** - Advanced CSS selectors
+- **14_ResponsiveDesign/** - Responsive design techniques
 
 ### HTMLBasics/
 - **Accessibility/** - HTML accessibility best practices
@@ -29,7 +30,7 @@ The repository is organized by course/module:
 - **EventHub/** - Event listing page
 - **HotelFeedbackForm/** - HTML forms
 - **RecipeWebsite/** - Recipe display page
-**BuildHeartIcon/** - Basics of SVGs
+- **BuildHeartIcon/** - Basics of SVGs
 - **SurveyForm/** - Survey form implementation
 - **TravelAgency/** - Travel agency website
 - **VideoCompilationPage/** - Multimedia content page
