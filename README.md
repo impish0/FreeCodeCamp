@@ -1,4 +1,4 @@
-# FreeCodeCamp Certified Full Stack Developer Curriculum
+# FreeCodeCamp Certified Full Stack Developer Curriculum (my progress)
 
 This repository contains my projects and exercises as I work through the FreeCodeCamp Certified Full Stack Developer Curriculum.
 
