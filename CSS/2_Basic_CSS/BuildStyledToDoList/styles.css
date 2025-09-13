@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  color: #EEEEEE;
+}
+
+h1 {
+  font-size: 40px;
+  color: #EEEEEE;
+  text-align: center;
+  padding-top: 90px;
+  margin-bottom: 40px;
+  font-family: Inter, sans-serif;
+}
+
+li {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Inter;
+  padding: 10px;
+}
+
+.highlight {
+  background: linear-gradient(90deg,rgba(142, 119, 211, 1) 0%, rgba(77, 122, 238, 1) 100%);
+  font-style: italic;
+  color: transparent;
+  background-clip: text;
+}
+
+.todo-list {
+  margin: 20px auto;
+}
+
+.todo-list li .sub-item {
+  list-style: none; /* Removes default list style (bullet points or numbers) */
+}
+
+.item-container {
+  width: 545px;
+  height: 130px;
+  border-radius: 10px;
+  border: 1px solid #424242;
+  background: #1F1F1F;
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkbox {
+  background-color: #111;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkbox:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkbox:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #379EFF;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #1f1f1f;
+  outline: 2px solid #7C3AED;
+  border-radius: 5px;
+}
+
+.container:hover input ~ .checkbox {
+  background-color: #111111;
+  outline: 2px solid #379EFF;
+}
+
+.todo-section {
+  margin: 50px auto;
+  width: 786px;
+  height: auto;
+  border-radius: 15px;
+  background: #111111;
+  padding-bottom: 80px;
+}
+
+ul > li {
+  margin: 10px;
+}
+
+a:link {
+  color: #A78BFA !important;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:active {
+  color: brown;
+}
+
+a:visited {
+  color: #6330fa;
+}
+
+a:hover {
+  color: #379EFF;
+}
+
+a:focus {
+  color: bisque;
+}

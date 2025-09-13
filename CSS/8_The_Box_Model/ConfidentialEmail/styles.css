@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: azure;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: Courier;
+  font-size: 13px;
+  margin: 15px auto;
+}
+
+#top-secret > p,
+#confidential > p {
+  font-family: Stencil;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+#email {
+  padding: 50px;
+  margin: 50px auto 0px;
+  width: 500px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+#confidential,
+#top-secret {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 0 5px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 0;
+  border-width: 5px;
+  color: red;
+}
+
+#confidential {
+  transform: translate(24vh, 1vh) rotate(-10deg);
+}
+
+#top-secret {
+  transform: translate(30vh, -30px) rotate(15deg);
+}
+
+.blurred {
+  filter: blur(3px);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+ <meta charset="utf-8">
+ <title>Survey Form</title>
+    </head>
+    <body>
+ <h1 id="title">Well-Copy 90-Day Survey</h1>
+ <p id="description">Thank you for being part of the wellcopy team! Let us know how the first 90 days has gone for you.</p>
+ <form method="POST" action="#URL" id="survey-form">
+     <fieldset>
+  <label id="name-label" for="name-label">Name</label>
+  <input
+  required
+  id="name"
+  type="text"
+  name="name"
+  placeholder="What is your name?"
+  />
+  <label id="email-label" for="email-label">Email</label>
+  <input
+  required
+  id="email"
+  type="email"
+  name="email"
+  placeholder="What is your email?"
+  />
+  <label id="number-label" for="number-label">Days Of Writing</label>
+  <input
+  id="number"
+  type="number"
+  name="number"
+  min="10"
+  max="100"
+  placeholder="Days"
+  />
+     </fieldset>
+     <fieldset>
+  <legend>Which best drescibes your experience?</legend>
+  <label for="dropdown">Select an option</label>
+  <select id="dropdown">
+      <option value="beginner">Beginner</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="expert">Expert</option>
+  </select>
+     </fieldset>
+     <fieldset>
+  <legend>Would you recommend Well-Copy to a friend?</legend>
+  <label for="yes-option">Yes</label>
+  <input id="yes-option" type="radio" name="recommend" value="Yes"/>
+  <label for="no-option">No</label>
+  <input id="no-option" type="radio" name="recommend" value="No" />
+     </fieldset>
+     <fieldset>
+  <legend>What would you like to see improved? (check all that apply)</legend>
+  <label for="communication">Communication</label>
+  <input
+  type="checkbox"
+  id="communication"
+  name="communication"
+  value="communication"
+  />
+  <label for="training">Training</label>
+  <input
+  type="checkbox"
+  id="training"
+  name="training"
+  value="training"
+  />
+     </fieldset>
+     <fieldset>
+  <legend>Any other comments or questions for us?</legend>
+  <label for="comments"></label>
+  <textarea id="comments" name="comments" placeholder="Write your thoughts here...">
+  </textarea>
+     </fieldset>
+     <button id="submit">Submit</button>
+ </form>
+    </body>
+
+</html>

@@ -1,0 +1,76 @@
+body {
+    background-color: #111111;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.business-card {
+    width: 300px;
+    background-color: #1F1F1F;
+    padding: 20px;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #424242;
+    border-radius: 10px;
+}
+
+.business-card > a {
+    padding-top: 20px;
+}
+
+.highlight {
+  background: linear-gradient(118deg,rgba(5, 80, 171, 1) 0%, rgba(255, 255, 255, 1) 26%, rgba(179, 25, 66, 1) 100%);
+  font-style: bold;
+  color: transparent;
+  background-clip: text;
+}
+
+.social-media a {
+    margin: 0 5px;
+}
+
+.contact {
+    margin: 10px auto;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.profile-image {
+    max-width: 100%;
+}
+h2 {
+    color: #EEEEEE;
+}
+
+hr {
+    background-color: #313244;
+    height: 2px;
+    border-radius: 50px;
+    border-color: #313244;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: Inter, sans-serif;
+    color: #EEEEEE;
+}
+
+p {
+    margin: 5px 0;
+    color: #BCBCBCBC;
+}
+
+a {
+    text-decoration: none;
+    color: #A78BFA;
+    
+}
+
+.company {
+    color: #a6e3a1;
+    font-style: italic;
+}
