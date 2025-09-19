@@ -21,6 +21,7 @@ The repository is organized by course/module:
 - **12_Positioning/** - CSS positioning techniques
 - **13_AttributeSelectors/** - Advanced CSS selectors
 - **14_ResponsiveDesign/** - Responsive design techniques
+- **15_Variables/** - CSS variables
 
 ### HTMLBasics/
 - **Accessibility/** - HTML accessibility best practices
