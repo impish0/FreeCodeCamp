@@ -5,19 +5,19 @@ Build an app that is functionally similar to this example project. Try not to co
 
 **User Stories:**
 
-- [] 1. Your product landing page should have a `header` element with a corresponding `id="header"`.
+- [x] 1. Your product landing page should have a `header` element with a corresponding `id="header"`.
 
-- [] 2. You should have an image within the `header` element with a corresponding `id="header-img"` (A logo would make a good image here).
+- [x] 2. You should have an image within the `header` element with a corresponding `id="header-img"` (A logo would make a good image here).
 
-- [] 3. Within the `#header` element, you should have a `nav` element with a corresponding `id="nav-bar"`.
+- [x] 3. Within the `#header` element, you should have a `nav` element with a corresponding `id="nav-bar"`.
 
-- [] 4. You should have at least three clickable elements inside the `nav` element, each with the class `nav-link`.
+- [x] 4. You should have at least three clickable elements inside the `nav` element, each with the class `nav-link`.
 
-- [] 5. When you click a `.nav-link` button in the `nav` element, you should be taken to the corresponding section of the landing page.
+- [#] 5. When you click a `.nav-link` button in the `nav` element, you should be taken to the corresponding section of the landing page.
 
 - [] 6. You should have an embedded product video with `id="video"`.
 
-- [] 7. Your landing page should have a `form` element with a corresponding `id="form"`.
+- [x] 7. Your landing page should have a `form` element with a corresponding `id="form"`.
 
 - [] 8. Within the form, there should be an `input` field with `id="email"` where you can enter an email address.
 
