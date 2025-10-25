@@ -3,27 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
+  <body>
+ 
+    <header id="header">
+      <nav id="nav-bar">
+        <img 
+          id="header-img" 
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" 
+          alt="Company Logo" 
+        />
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header id="header">
-    <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Company Logo" />
-    <nav id="nav-bar">
+    <section id="newsletter-section">
+      <h2>Join Our Newsletter</h2>
+      <p>Subscribe to get the latest updates and offers.</p>
+      <form action="https://www.freecodecamp.org/email-submit" id="form">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input type="submit" id="submit" value="Get Started" />
+      </form>
+    </section>
+
+    <section id="features">
+      <h3>Features</h3>
       <ul>
-        <li><a class="nav-link" href="#features">Features</a></li>
-        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li><div>
+            <h4>🔥 Firey Emojis; Easy Access</h4>
+          <p>This is a feature that allows users to easily access a wide range of fire-themed emojis.</p>
+        </div></li>
+        <li><div>
+          <h4>🔥 Firey Emojis; Curated Collection</h4>
+          <p>This feature provides users with a curated collection of fire-themed emojis for quick access.</p>
+        </div></li>
+        <li><div>
+          <h4>🔥 Firey Emojis; Enhanced Search</h4>
+          <p>This feature allows users to search for fire-themed emojis using keywords and tags.</p>
+        </div></li>
       </ul>
-    </nav>
-  </header>
+    </section>
 
-  <h2>Join Our Newsletter</h2>
-  <p>Subscribe to get the latest updates and offers.</p>
-  <form action="https://www.freecodecamp.com/email-submit" id="form">
-    <input type="email" name="email" id="email" placeholder="Enter your email address" required />
-    <input type="submit" id="submit" value="Get Started" />
+    <section id="how-it-works">
+      <h3>How It Works</h3>
+      <video
+        id="video"
+        width="560"
+        height="315"
+        controls
+      >
+        <source src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?si=ajEIm5G3t8vyT6yd" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
 
-</body>
-
+    <section id="pricing">
+      <h3>Pricing</h3>
+      <div class="pricing-container">
+        <div class="product">
+          <h4>Basic</h4>
+          <p class="price">$10/month</p>
+          <ul>
+            <li>Basic Feature 1</li>
+            <li>Basic Feature 2</li>
+          </ul>
+          <button class="select-btn">Select</button>
+        </div>
+        <div class="product">
+          <h4>Standard</h4>
+          <p class="price">$20/month</p>
+          <ul>
+            <li>Standard Feature 1</li>
+            <li>Standard Feature 2</li>
+          </ul>
+          <button class="select-btn">Select</button>
+        </div>
+        <div class="product">
+          <h4>Premium</h4>
+          <p class="price">$30/month</p>
+          <ul>
+            <li>Premium Feature 1</li>
+            <li>Premium Feature 2</li>
+          </ul>
+          <button class="select-btn">Select</button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
