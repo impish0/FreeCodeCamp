@@ -88,13 +88,13 @@
     transform: rotate(0deg);
   }
   25% {
-    background-color: yellow;
+    background-color: pink;
   }
   50% {
     background-color: purple;
   }
   75% {
-    background-color: yellow;
+    background-color: teal;
   }
   100% {
     transform: rotate(-360deg);
