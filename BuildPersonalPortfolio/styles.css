@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  border-radius: 50px;
+  border: 1px solid lightgreen;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #90ee9027;
+}
+
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.welcome h1 {
+  font-size: 4em;
+  margin: 0;
+  color: green;
+  padding: 20px 60px 20px 60px;
+}
+
+.welcome p {
+  font-size: 1.5em;
+  color: lightgreen;
+}
+
+
+/* Profile links section */
+
+.profile {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile h1 {
+  font-size: 4em;
+  margin: 0;
+  color: green;
+  padding: 20px 60px 0px 60px;
+}
+
+.profile p {
+  font-size: 1.5em;
+  color: lightgreen;
+}
