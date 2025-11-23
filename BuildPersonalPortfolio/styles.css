@@ -3,19 +3,25 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+  font-family: "Space Grotesk", sans-serif;
 }
 
-nav ul {
+nav {
+  position: sticky;
+  top: 20px;
+  padding: 0 20px;
+  z-index: 1;
+}
+
+nav > ul {
   list-style-type: none;
-  margin: 20px;
   padding: 0;
-  background-color: #1f1f1f;
+  background-color: #1f1f1fcc;
   display: flex;
   justify-content: center;
-  position: sticky;
   top: 0;
   border-radius: 50px;
-  border: 1px solid lightgreen;
+  border: 1px solid #90ee90cc;
 }
 
 ul li a {
@@ -23,6 +29,8 @@ ul li a {
   color: white;
   padding: 16px 16px;
   text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 ul li a:hover {
@@ -36,6 +44,22 @@ ul li a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-image: 
+    radial-gradient(ellipse at center, transparent 0%, #000000 100%),
+    linear-gradient(to right, #1e2411cc 3px, transparent 1px),
+    linear-gradient(to bottom, #1e2411cc 1px, transparent 1px);
+  background-size: 
+    100% 100%,
+    60px 80px,
+    60px 80px;
+  background-position: 
+    center,
+    0 0,
+    0 0;
+  background-repeat: 
+    no-repeat,
+    repeat,
+    repeat;
 }
 
 .welcome h1 {
@@ -48,6 +72,7 @@ ul li a:hover {
 .welcome p {
   font-size: 1.5em;
   color: lightgreen;
+  padding: 0px 60px 0px 60px;
 }
 
 
@@ -55,7 +80,7 @@ ul li a:hover {
 
 .profile {
   width: 100vw;
-  height: 100vh;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,4 +97,21 @@ ul li a:hover {
 .profile p {
   font-size: 1.5em;
   color: lightgreen;
+  padding: 0px 60px 0px 60px;
+}
+
+.links {
+  display: block;
+}
+
+.profile ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.profile li a {
+  border-radius: 30px;
 }
