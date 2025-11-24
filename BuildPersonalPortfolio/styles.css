@@ -4,30 +4,32 @@ body {
   padding: 0;
   color: white;
   font-family: "Space Grotesk", sans-serif;
+  text-align: center;
 }
 
 nav {
-  position: sticky;
-  top: 20px;
-  padding: 0 20px;
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #90ee90cc;
 }
 
 nav > ul {
   list-style-type: none;
-  padding: 0;
-  background-color: #1f1f1fcc;
+  padding-right: 10px;
+  background-color: #1f1f1f;
   display: flex;
   justify-content: center;
   top: 0;
-  border-radius: 50px;
-  border: 1px solid #90ee90cc;
 }
 
 ul li a {
   display: block;
   color: white;
-  padding: 16px 16px;
+  padding: 10px;
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
@@ -38,7 +40,7 @@ ul li a:hover {
 }
 
 .welcome {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -67,19 +69,48 @@ ul li a:hover {
   margin: 0;
   color: green;
   padding: 20px 60px 20px 60px;
+  text-align: center;
 }
 
 .welcome p {
   font-size: 1.5em;
   color: lightgreen;
   padding: 0px 60px 0px 60px;
+  text-align: center;
 }
 
+/* Project Section */
+
+.project-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  place-items: center;
+}
+
+.project-container {
+  display: grid;
+  height: 500px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #1f1f1fcc;
+  padding: 40px;
+  border-radius: 30px;
+  border: 1px solid green;
+}
+
+.project-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
 
 /* Profile links section */
 
 .profile {
-  width: 100vw;
+  width: 100%;
   height: 300px;
   display: flex;
   align-items: center;
@@ -92,12 +123,14 @@ ul li a:hover {
   margin: 0;
   color: green;
   padding: 20px 60px 0px 60px;
+  text-align: center;
 }
 
 .profile p {
   font-size: 1.5em;
   color: lightgreen;
   padding: 0px 60px 0px 60px;
+  text-align: center;
 }
 
 .links {
