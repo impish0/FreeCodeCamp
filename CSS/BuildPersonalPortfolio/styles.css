@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   margin: 0;
@@ -81,30 +85,56 @@ ul li a:hover {
 
 /* Project Section */
 
-.project-section {
+#project-section {
+  background-color: #0a0a0a;
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-size: 2.5em;
+  color: green;
+  margin-bottom: 40px;
+}
+
+.project-grid {
   width: 100%;
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
   place-items: center;
 }
 
-.project-container {
-  display: grid;
-  height: 500px;
+.project-tile {
+  text-decoration: none;
+  color: inherit;
   width: 100%;
   max-width: 400px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  width: 100%;
   background-color: #1f1f1fcc;
   padding: 40px;
   border-radius: 30px;
-  border: 1px solid green;
+  border: 1px solid green;}
+
+.project-container:hover {
+  transform: translateY(-5px);
+  border-color: lightgreen;
 }
 
 .project-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  color: white;
+  margin: 0;
 }
 
 /* Profile links section */
@@ -147,4 +177,35 @@ ul li a:hover {
 
 .profile li a {
   border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .welcome h1 {
+    font-size: 2.5em;
+    padding: 20px 30px;
+  }
+
+  .welcome p {
+    font-size: 1.2em;
+    padding: 0 30px;
+  }
+
+  .section-title {
+    font-size: 2em;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+
+  .profile h1 {
+    font-size: 2.5em;
+    padding: 20px 30px 0;
+  }
+
+  .profile p {
+    font-size: 1.2em;
+    padding: 0 30px;
+  }
 }
