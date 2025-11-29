@@ -22,7 +22,9 @@ The repository is organized by course/module:
 - **13_AttributeSelectors/** - Advanced CSS selectors
 - **14_ResponsiveDesign/** - Responsive design techniques
 - **15_Variables/** - CSS variables
-- ***16_Grid/** - Learn the GRID
+- **16_Grid/** - Learn the GRID
+- **17_TransitionsAndAnimations/** - CSS transitions and animations
+- **Personal Portfolio/** - My personal portfolio website (demo project for the course)
 
 ### HTMLBasics/
 - **Accessibility/** - HTML accessibility best practices
